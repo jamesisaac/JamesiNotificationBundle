@@ -1,0 +1,21 @@
+{
+    "name": "jamesi/notification-bundle",
+    "type": "symfony-bundle",
+    "description": "Create an email and on-site notification/alerts system for your users",
+    "keywords": ["notifications", "alerts", "email"],
+    "homepage": "https://github.com/jamesisaac/JamesiNotificationBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Isaac",
+            "homepage": "http://jamesisaac.me"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": ">=2.1"
+    },
+    "autoload": {
+        "psr-0": { "Jamesi\\NotificationBundle": "" }
+    },
+    "target-dir": "Jamesi/NotificationBundle"
+}
