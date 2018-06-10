@@ -1,6 +1,6 @@
 services:
 
     jamesi_notification.notifier:
-        class: %jamesi_notification.notifier_class%
+        class: '%jamesi_notification.notifier_class%'
         arguments:
-            [@doctrine, @mailer, @templating, %jamesi_notification.config%]
+            ['@doctrine', '@mailer', '@templating', '%jamesi_notification.config%']
